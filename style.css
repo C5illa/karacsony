@@ -200,9 +200,14 @@
     color: var(--bg-color);
   }
   
+  .contact__link--inline {
+    text-decoration: none;
+    display: inline;
+  }
   
-  
-  
+  .header__text--inline {
+    display: inline;
+  }
   
   /*------------------------------------*\
   #PRODUCT
