@@ -192,12 +192,12 @@
   font-size: .8rem;
   text-transform: uppercase;
   background: var(--highlight-color);
-  padding: .9rem;
-  border-radius: 9999px;
+  padding: .6rem;
+  border-radius: 10px;
   }
   
   a.header__button:hover {
-    color: var(--bg-color);
+    background-color: rgb(5, 157, 193, .7);
   }
   
   .contact__link--inline {
@@ -210,11 +210,9 @@
     opacity: 50%;
   }
   
-  .header__text--inline {
-    display: inline-block;
-    margin: 0;
 
-  }
+
+
   
   /*------------------------------------*\
   #PRODUCT
@@ -261,19 +259,20 @@
   .notes__calltext {
   display: inline-block;
   letter-spacing: .05rem;
+  font-size: .9rem;
+  font-family: var(--font);
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--product-background);
   font-weight: bold;
-  margin-top: 3px;
+  margin-top: .5rem;
   background-color: var(--highlight-color);
   padding: 0.6rem;
-  border-radius: 9999px;
-  box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
+  border-radius: 10px;
   }
   
+
   .notes__calltext:hover {
-    box-shadow: none;
+    background-color: rgb(5, 157, 193, .7);
   }
   
   
