@@ -79,22 +79,6 @@
     letter-spacing: 1.2px;
   }
   
-  .size {
-    text-decoration: none;
-    color: var(--font-color);
-    background-color: var(--bg-color);
-    border-radius: 9999px;
-    padding: .6rem;
-    font-weight: bold;
-    font-size: .8rem;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
-    text-transform: uppercase;
-  }
-  
-  .size:hover {
-    box-shadow: none;
-  }
-  
   .small-text {
     font-size: .8rem;
     line-height: .9rem;
@@ -273,7 +257,6 @@
   border-radius: 10px;
   }
   
-
   .notes__calltext:hover {
     background-color: rgb(5, 157, 193, .7);
   }
