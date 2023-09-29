@@ -203,10 +203,17 @@
   .contact__link--inline {
     text-decoration: none;
     display: inline;
+    color: var(--highlight-color)
+  }
+
+  .contact__link--inline:hover {
+    opacity: 50%;
   }
   
   .header__text--inline {
-    display: inline;
+    display: inline-block;
+    margin: 0;
+
   }
   
   /*------------------------------------*\
