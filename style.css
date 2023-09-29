@@ -6,8 +6,9 @@
 :root {
     --bg-color:             #DEEBF3;
     --product-background:   #ffffff;
-    --font-color:           #010101;
-    --highlight-color:      #059DC1;
+    --font-color:           #0A1522;
+    --secondary-font-color: #62666a;
+    --highlight-color:      #00B3CC;
     --font:                'Roboto', sans-serif;
     --font-pair:           'Raleway', sans-serif; 
   }
@@ -41,7 +42,7 @@
   h2 {
     text-transform: uppercase;
     font-family: var(--font);
-    font-weight: 400;
+    font-weight: 450;
     font-size: 1.1rem;
     padding: 3rem;
     line-height: 1.28;
@@ -96,6 +97,8 @@
   
   .small-text {
     font-size: .8rem;
+    line-height: .9rem;
+    color: var(--secondary-font-color)
   }
   
   
@@ -324,8 +327,7 @@
   
   .footer__text {
   font-size: 1rem;
-  margin-top: 10px;
-  margin-bottom: -2rem;
+  margin: 1rem 1rem -2rem 1rem;
   }
   
   .footer__designed {
