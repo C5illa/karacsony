@@ -185,7 +185,7 @@
   }
   
   a.header__button:hover {
-    background-color: rgb(5, 157, 193, .7);
+    background-color: rgba(5, 157, 193, .7);
   }
   
   .contact__link--inline {
@@ -258,7 +258,7 @@
   }
   
   .notes__calltext:hover {
-    background-color: rgb(5, 157, 193, .7);
+    background-color: rgba(5, 157, 193, .7);
   }
   
   
