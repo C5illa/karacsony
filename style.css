@@ -170,7 +170,7 @@
   }
   
   .logo {
-  max-width: 200px;
+  max-width: 250px;
   }
   
   .header__button {
@@ -363,5 +363,5 @@
   }
   
   .footer__logo:hover {
-    transform: scale(1.03);
+    transform: scale(1.1);
   }
