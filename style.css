@@ -96,9 +96,34 @@ article p {
   color: var(--secondary-font-color)
 }
   
+.cut__warning {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--highlight-color);
+}
   
+.cut__warning:hover {
+  opacity: .65;
+}
+
+.contact__link--inline {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact__link--inline:hover {
+  opacity: .65;
+}
+
+.header__text--warning {
+  padding-top: 0;
+  margin-bottom: 2rem;
+  color: var(--highlight-color);
+}
   
-  
+
+
+
   
 /*------------------------------------*\
   #LAYOUT
@@ -199,20 +224,7 @@ a.header__button:hover {
   background-color: rgba(5, 157, 193, .7);
 }
   
-.contact__link--inline {
-  text-decoration: none;
-  color: var(--highlight-color)
-}
 
-.contact__link--inline:hover {
-  opacity: 50%;
-}
-
-.header__text--warning {
-  padding-top: 0;
-  margin-bottom: 2rem;
-  color: var(--highlight-color);
-}
 
 
   
