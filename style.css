@@ -43,12 +43,12 @@
 h2 {
   text-transform: uppercase;
   font-family: var(--font);
-  font-weight: 450;
-  font-size: 1.1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
   padding: 3rem;
   line-height: 1.28;
   margin-bottom:-50px;
-  letter-spacing: .3rem;
+  letter-spacing: .2rem;
 }
   
 h4 {
