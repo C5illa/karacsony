@@ -9,6 +9,7 @@
   --font-color:           #0A1522;
   --secondary-font-color: #62666a;
   --highlight-color:      #00B3CC;
+  --blue-transparent:     rgba(0,179,204,.2);
   --font:                'Roboto', sans-serif;
   --font-pair:           'Raleway', sans-serif; 
   }
@@ -214,13 +215,16 @@ header {
   font-weight: bold;
   font-size: .8rem;
   text-transform: uppercase;
-  background: var(--highlight-color);
-  padding: .6rem;
-  border-radius: 10px;
+  padding: .5rem;
+  border: 3px solid var(--blue-transparent);
+  border-radius: 9999px;
 }
-  
+
 a.header__button:hover {
-  background-color: rgba(5, 157, 193, .7);
+  border-radius: 7px;
+  border: 3px solid transparent;
+  background-color: var(--blue-transparent);
+  transition: all .2s ease;
 }
   
 
@@ -263,6 +267,7 @@ a.header__button:hover {
   color: var(--font-color);
   text-transform: uppercase;
   font-weight: 400;
+  padding-bottom: .5rem;
 }
   
 .notes__text {
@@ -273,19 +278,22 @@ a.header__button:hover {
   
 .notes__calltext {
   display: inline-block;
-  font-size: .9rem;
-  font-family: var(--font);
   text-decoration: none;
   text-transform: uppercase;
+  font-size: .8rem;
+  color: var(--font-color);
   font-weight: bold;
-  margin-top: .5rem;
-  background-color: var(--highlight-color);
+  margin-top: 3px;
   padding: 0.6rem;
-  border-radius: 10px;
+  border-radius: 9999px;
+  border: 3px solid var(--blue-transparent);
 }
   
 .notes__calltext:hover {
-    background-color: rgba(5, 157, 193, .7);
+  border-radius: 7px;
+  border: 3px solid transparent;
+  background-color: var(--blue-transparent);
+  transition: all .2s ease;
  }
   
   
